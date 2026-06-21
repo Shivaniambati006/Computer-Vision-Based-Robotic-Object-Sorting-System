@@ -14,7 +14,7 @@ A real-time computer vision pipeline that enables a robotic arm to perceive, cla
 ## DEMO 
 
 <p align="center">
-  <a href="http://www.youtube.com/watch?v=7KV5489rL3c" target="_blank">
+  <a href="https://www.youtube.com/watch?v=LlqLGI17qpM" target="_blank">
     <img src="https://img.youtube.com/vi/7KV5489rL3c/maxresdefault.jpg" alt="AI Robotic Arm Computer Vision Sorting Demonstration" width="80%">
   </a>
   <br>
