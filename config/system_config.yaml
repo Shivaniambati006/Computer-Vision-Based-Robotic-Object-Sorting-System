@@ -1,0 +1,43 @@
+# config/system_config.yaml
+# Global parameters for camera input, robotic arm interface, and pipeline tuning.
+
+camera:
+  source: 0                # 0 = default webcam; replace with RTSP/USB index for industrial cams
+  frame_width: 640
+  frame_height: 480
+  fps_target: 30
+
+morphology:
+  erosion_kernel: [5, 5]
+  erosion_iterations: 1
+  dilation_kernel: [5, 5]
+  dilation_iterations: 2
+
+pipeline:
+  max_objects_per_frame: 5
+  detection_confidence_log: true
+  debug_overlay_default: false
+
+# Pixel-to-world coordinate transformation.
+# These are placeholder calibration values — replace via a proper
+# camera-to-robot calibration routine (e.g., homography from 4+ point pairs).
+coordinate_mapping:
+  method: "linear"          # "linear" or "homography"
+  origin_pixel: [320, 240]  # principal point / image center reference
+  scale_x_mm_per_px: 0.5
+  scale_y_mm_per_px: 0.5
+  z_pick_height_mm: 10
+
+robot_arm:
+  interface: "simulation"   # "simulation" or "serial" or "tcp"
+  serial_port: "/dev/ttyUSB0"
+  baud_rate: 115200
+  tcp_host: "127.0.0.1"
+  tcp_port: 9000
+  home_position: [0, 0, 100]
+  approach_height_mm: 50
+
+logging:
+  log_dir: "logs/"
+  log_level: "INFO"
+  performance_log_interval_sec: 5

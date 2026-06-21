@@ -1,0 +1,38 @@
+# config/color_thresholds.yaml
+# HSV threshold ranges for each color class recognized by the sorting system.
+# Values are in OpenCV's HSV convention: H [0-179], S [0-255], V [0-255]
+#
+# Use src/vision/calibration.py to interactively tune these ranges
+# for your specific lighting conditions and objects, then update this file.
+
+color_classes:
+  red:
+    # Red wraps around the hue circle, so two ranges are required.
+    lower1: [0, 120, 70]
+    upper1: [10, 255, 255]
+    lower2: [170, 120, 70]
+    upper2: [179, 255, 255]
+    bin_id: "bin_A"
+    bin_coordinates: [350, 50, 0]   # x, y, z in robot workspace (mm)
+
+  green:
+    lower1: [36, 80, 70]
+    upper1: [89, 255, 255]
+    bin_id: "bin_B"
+    bin_coordinates: [350, 150, 0]
+
+  blue:
+    lower1: [90, 80, 70]
+    upper1: [128, 255, 255]
+    bin_id: "bin_C"
+    bin_coordinates: [350, 250, 0]
+
+  yellow:
+    lower1: [20, 100, 100]
+    upper1: [35, 255, 255]
+    bin_id: "bin_D"
+    bin_coordinates: [350, 350, 0]
+
+# Minimum contour area (in pixels) to be considered a valid object,
+# filtering out small noise blobs after segmentation.
+min_contour_area: 800
