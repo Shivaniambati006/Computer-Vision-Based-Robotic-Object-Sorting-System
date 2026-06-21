@@ -6,19 +6,14 @@
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
 
 <p align="center">
-  <img src="./image/img.png"  width="80%">
-</p>
-
-A real-time computer vision pipeline that enables a robotic arm to perceive, classify, and sort colored objects autonomously — engineered to simulate high-throughput industrial warehouse and manufacturing workflows.
-
-## DEMO 
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=LlqLGI17qpM" alt="AI Robotic Arm Computer Vision Sorting Demonstration" width="80%">
+  <a href="https://www.youtube.com/watch?v=LlqLGI17qpM" target="_blank">
+    <img src="./image/img.png" alt="AI Robotic Arm Computer Vision Sorting Demonstration" width="80%">
   </a>
   <br>
   <em>Click the image above to watch on YouTube.</em>
 </p>
+
+A real-time computer vision pipeline that enables a robotic arm to perceive, classify, and sort colored objects autonomously — engineered to simulate high-throughput industrial warehouse and manufacturing workflows.
 
 ## Project Overview
 
