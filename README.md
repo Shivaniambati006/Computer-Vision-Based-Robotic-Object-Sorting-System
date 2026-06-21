@@ -14,11 +14,10 @@ A real-time computer vision pipeline that enables a robotic arm to perceive, cla
 ## DEMO 
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=LlqLGI17qpM" target="_blank">
-    <img src="https://img.youtube.com/vi/7KV5489rL3c/maxresdefault.jpg" alt="AI Robotic Arm Computer Vision Sorting Demonstration" width="80%">
+  <a href="https://www.youtube.com/watch?v=LlqLGI17qpM" alt="AI Robotic Arm Computer Vision Sorting Demonstration" width="80%">
   </a>
   <br>
-  <em>Click the image above to watch the system tracking pipeline and robotic execution loop demo on YouTube.</em>
+  <em>Click the image above to watch on YouTube.</em>
 </p>
 
 ## Project Overview
