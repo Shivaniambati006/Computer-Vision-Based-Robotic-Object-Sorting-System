@@ -1,10 +1,9 @@
 # Computer Vision-Based Robotic Object Sorting System
-<p align="center">
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
-</p>
 
 <p align="center">
   <img src="./image/img.png"  width="80%">
@@ -15,7 +14,11 @@ A real-time computer vision pipeline that enables a robotic arm to perceive, cla
 ## DEMO 
 
 <p align="center">
-  <video src="./assets/demo/sorting_system_demo.mp4" width="80%" autoplay loop muted playsinline></video>
+  <a href="http://www.youtube.com/watch?v=7KV5489rL3c" target="_blank">
+    <img src="https://img.youtube.com/vi/7KV5489rL3c/maxresdefault.jpg" alt="AI Robotic Arm Computer Vision Sorting Demonstration" width="80%">
+  </a>
+  <br>
+  <em>Click the image above to watch the system tracking pipeline and robotic execution loop demo on YouTube.</em>
 </p>
 
 ## Project Overview
