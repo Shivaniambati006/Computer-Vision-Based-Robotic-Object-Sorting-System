@@ -1,9 +1,10 @@
 # Computer Vision-Based Robotic Object Sorting System
-
+<p align="center">
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
+</p>
 
 <p align="center">
   <img src="./image/img.png"  width="80%">
@@ -11,6 +12,11 @@
 
 A real-time computer vision pipeline that enables a robotic arm to perceive, classify, and sort colored objects autonomously — engineered to simulate high-throughput industrial warehouse and manufacturing workflows.
 
+## DEMO 
+
+<p align="center">
+  <video src="./assets/demo/sorting_system_demo.mp4" width="80%" autoplay loop muted playsinline></video>
+</p>
 
 ## Project Overview
 
@@ -145,7 +151,6 @@ robotic-object-sorting-system/
 - `math`, `time` (standard library) — geometric calculations and pipeline performance timing
 
 ---
-
 ## Getting Started
 
 ### Prerequisites
