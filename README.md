@@ -5,9 +5,12 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
 
+<p align="center">
+  <img src="./image/img.png"  width="80%">
+</p>
+
 A real-time computer vision pipeline that enables a robotic arm to perceive, classify, and sort colored objects autonomously — engineered to simulate high-throughput industrial warehouse and manufacturing workflows.
 
----
 
 ## Project Overview
 
@@ -29,7 +32,6 @@ The system is designed with industrial automation principles in mind — low-lat
 - 🧩 **Modular pipeline architecture** — each processing stage is independently tunable and testable.
 - 🧪 **Configurable color-class thresholds** for easy adaptation to new object sets without code changes.
 
----
 
 ## Computer Vision Pipeline
 
@@ -128,12 +130,9 @@ robotic-object-sorting-system/
 │   └── test_pipeline.py          # Unit tests for vision pipeline stages
 │
 ├── main.py                       # Entry point — runs the full sorting pipeline
-├── requirements.txt
 ├── LICENSE
 └── README.md
 ```
-
----
 
 ## Tech Stack & Dependencies
 
@@ -199,7 +198,6 @@ python main.py --debug
 
 Displays bounding boxes, centroids, and classified labels overlaid on the live feed for pipeline verification and tuning.
 
----
 
 ## License
 
